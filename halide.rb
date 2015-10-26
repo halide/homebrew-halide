@@ -1,9 +1,9 @@
 class Halide < Formula
   desc "The Halide image processing language"
   homepage "http://halide-lang.org"
-  url "https://github.com/halide/Halide/releases/download/release_2015_08_05/halide_Darwin_64_trunk_clang_d5ef0199bfdd2112c90c0ab253f5c3d7f7748e41_2015_08_05.tgz"
-  version "2015.08.05"
-  sha256 "5ad3a5ebb684db269946acb9ef0f572ab6947d6d347bcc7ab2c886ed1861efb7"
+  url "https://github.com/halide/Halide/releases/download/release_2015_10_22/halide-mac-64-trunk-c815789464d4d0dc790ac13b084a4da44459983f.tgz"
+  version "2015.10.22"
+  sha256 "f5e4bcc860d7c08992fbfcd7aba5fdf1af60851ca1d35d72e40d8dcbd3a64515"
 
   def install
     lib.install Dir['bin/libHalide*']
